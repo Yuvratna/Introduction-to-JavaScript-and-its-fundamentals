@@ -1,0 +1,163 @@
+Question 1: Explain what JavaScript is and its role in web development.
+
+Ans : JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+
+JavaScript Role in Web Development
+
+Works on the Client-Side : JavaScript code snippets don’t require to be sent to the server side for being processed. This saves the load on the server side. The JavaScript codes in a website get processed using the resources on the user’s system. Thanks to this server-side processing, most of the functionalities are possible. It makes the rendering of animations and similar behaviors much less time consuming and a smoother experience.
+You have a great opportunity to get JavaScript homework help online. All you need is to pay coding experts at AssignmentCore to get your JavaScript assignments done from scratch.
+
+Popularity : JavaScript is used everywhere on the web. The resources to learn JavaScript are numerous. StackOverflow and GitHub have many projects that are using Javascript and the language as a whole has gained a lot of traction in the industry in recent years especially.
+
+Use of MEAN Stack : The developers can further simplify the development process by leveraging the four components of MEAN stack – MongoDB, Express.js, Angular.js, and Node.js. MongoDB is a newly defined NoSQL database. Angular.js is a well-known JavaScript framework supported by Google.
+
+Platform independent : Any  JavaScript-enabled browser, which most browsers are, can easily understand and interpret JavaScript code. It is a free technology and doesn’t require you to go through any installation or configuration procedure. Just open your browser and you can start editing different areas of a webpage.
+
+User Interface Interactivity : JavaScript used to fill web page data dynamically such as a drop-down list for a Country and State. Base on selected Country, State drop-down list dynamically filled. Another one is Form validation, missing/incorrect fields you can alert to users using an alert box.
+
+Versatility : JavaScript plays nicely with other languages and can be used in a huge variety of applications. Nowadays, there are many ways to use JavaScript through Node.js servers. If you were to bootstrap node.js with Express, use a document database like MongoDB, and use JavaScript on the front-end for clients, it is possible to develop an entire JavaScript app from front to back using only JavaScript.
+
+Powerful frameworks : There is a list of powerful frameworks built around JavaScript which boasts ready to use codes. Such codes are easy to understand as well as debug. You will also get access to plenty more features that will increase your productivity ten folds.
+
+Multiple tasking : With JavaScript, you get an event loop module which can run several different sets of instructions at the same time. For example, you are going through a website on your browser and you have activated a JavaScript event. The moment it is triggered, JavaScript runtime stores the information in the message queue. Now if a callback function is executed which contains the stored information then it will be executed again within the loop. In JavaScript, there is the possibility to handle multiple operations with a single thread. This helps the programmers from not having to indulge in additional (or redundant) programming for all the different applications.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where 
+you would use each.
+
+ans :
+1	JavaScript is a high-level scripting language introduced by Netscape to be run on the client-side of the web browser.HTML is the most basic building block of the Web. It defines 	the meaning and structure of web content.
+2	JavaScript is an advanced programming language that makes web pages more interactive and dynamic.HTML is a standard markup language that provides the primary structure of a 	website.
+3	JavaScript simply adds dynamic content to websites to make them look good.HTML work on the look of the website without the interactive effects and all.
+4	It manipulates content to create dynamic web pages. HTML pages are static which means the content cannot be changed.
+5	It adds interactivity to web pages to make them look good.It defines the basic structure of a web page.
+6	JavaScript is an advanced programming language used to create dynamic web pages.HTML is rendered from all server-side which is different from client-side scripting.
+7	JavaScript is not cross-browser compatible (some functions may not work on every browser).HTML is cross-browser compatible (it works well with all versions of the browser).
+8	JavaScript can be embedded inside HTML.	HTML can not be embedded inside JavaScript.
+9	It requires JS engine to run the code.	It requires any web browser to display the content.
+10	It is maintained by ECMA TC-39 committee.It is maintained by WHATWG and W3C.
+11	JavaScript files are saved with .js extension.HTML files are saved with an extension .html or .htm
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 3: List and describe the five primitive data types in JavaScript.
+
+ans : The five most basic types of data are strings, numbers, booleans, undefined, and null.
+
+1. String:
+The string data type in JavaScript can be any group of characters enclosed by a single or double-quotes or by backticks.
+
+	Example
+	// Using double quotes:
+	let carName1 = "Volvo XC60";
+
+	// Using single quotes:
+	let carName2 = 'Volvo XC60';
+
+2. Number:
+A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
+Numbers can be written with, or without decimals
+
+	Example
+	var a=250;  // integer value
+	var b=25.5;  // a number containing a decimal 
+	var c = 10e4 //  an exponential value which evaluates to 10*10000;
+
+
+3. Booleans: 
+Booleans can only have two values: true or false.
+
+	Example
+	let x = 5;
+	let y = 5;
+	let z = 6;
+	(x == y)       // Returns true
+	(x == z)       // Returns false
+
+4. Undefined: 
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+
+	Example
+	let car;    // Value is undefined, type is undefined
+
+Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+	Example
+	car = undefined;    // Value is undefined, type is undefined
+
+5. Null:
+The null in JavaScript is a data type that is represented by only one value, the ‘null’ itself. A null value means no value.
+
+Something like this:
+	var a = null;
+	console.log(a);   // This returns null
+
+If we check the data type of a using the typeof operator, we get:
+
+	typeof(a);         // This returns object
+This means the type of a null value is an object, not null.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the 
+'let' keyword?
+
+ans : Basically, we need to declare a variable to store various types of data in the program. So to perform some operations or tasks with the data, we need to store them in the computer's memory location. But we can't remember the address of the memory location where the data is stored. So to access the data, we name the memory location with a variable name and size depending on the data type.
+
+JavaScript let is a keyword used to declare variables that are block scoped. Variables defined with the let keyword cannot be redeclared and must be declared before use.
+
+Syntax
+	let name1;
+	let name1 = value1;
+	let name1 = value1, name2 = value2;
+	let name1, name2 = value2;
+	let name1 = value1, name2, /* …, */ nameN = valueN;
+
+example 
+	let a = 5;
+	let firstName='raj';
+
+Block Scope: The variables which are declared inside the { } block are known as block-scoped variables. variables declared by the var keyword cannot be block-scoped.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and 
+multi-line comments.
+
+ans : Comments are important because they help make your code more readable and maintainable. Here are some reasons why you should consider using comments in your code:
+
+1. Improve code readability
+When you're working on a project, it's not uncommon to revisit some parts of your code after a few days, weeks, or even months. When you come back to the code, it might not be immediately clear what each part does, especially if you've written a complex piece of code.
+By adding comments to your code, you can provide additional context and explanations that make it easier for you (or someone else) to understand what the code does and how it works.
+
+2. Facilitate collaboration
+In a team setting, multiple developers might be working on the same codebase. Comments can help your teammates understand your code when they need to work on the same file or debug an issue.
+For example, imagine you've written a function that calculates the area of a circle. Without comments, your teammates might not know what the function does or what its inputs and outputs are. By adding comments, you can provide this information and make it easier for others to work with your code.
+
+3. Document important decisions
+Sometimes during development, you might make certain design or implementation choices that are not obvious just by looking at the code. By adding comments, you can document these decisions and provide a rationale for why you chose a particular approach.
+This can be helpful for future developers (including yourself) who might need to understand why the code was written in a certain way or consider making changes to it.
+
+Single-line comments : 
+Single-line comments, as the name suggests, are comments that take up only a single line in your code. In JavaScript, you can create a single-line comment by starting the line with two slashes (//).
+example: 
+	// this will output ‘hello world’ to the browser's console.
+	console.log(‘hello world’);
+	result = 3 + 7 // comments can also follow a statement like this
+
+JavaScript Multi-Line Comment
+Sometimes, a single line is not enough to document or explain why certain code is written in a particular way or what it does. This is when a JavaScript Developer will opt for writing comments across multiple lines (a JavaScript multi-line comment can also be referred to as block comments).
+
+Multi-line comments in JavaScript code can be added by writing the comment between a forward-slash followed by asterisk /* and asterisk followed by a forward-slash */. Below are some examples of multi-line comments.
+example: 
+	/* Add two numbers and
+   	Store the output in a variable called result.
+   	Also, print the output to the browser’s console
+	*/
+	result = 6 + 5
+	console.log(‘Addition result is: ‘, result);
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript. 
+Provide an example where using a clear identifier improves code readability.
+ans : 

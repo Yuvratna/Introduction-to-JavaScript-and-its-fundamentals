@@ -1,0 +1,190 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Ans : JavaScript operators operate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands.
+
+In JavaScript, operators are used to compare values, perform arithmetic operations, etc.
+
+JavaScript Operators: There are various operators supported by JavaScript.
+
+Different Types of JavaScript Operators
+There are the following types of operators in JavaScript.
+
+	Arithmetic Operators
+	Comparison (Relational) Operators
+	Bitwise Operators
+	Logical Operators
+	Assignment Operators
+	Special Operators
+
+Assignment Operator: This refers to the "=" (equals) sign and assigns a variable. A variable is the framework of the information.
+
+Arithmetic Operators: These include "+" (addition), "-" (subtraction), "*" (multiplication), "/" (division), "" (integer division), "Mod" (Modulo) and "^" (exponentiation).
+
+Boolean Operators: These make use of "And" (logical conjunction), "AndAlso" (short circuit And), "OrElse" (short circuit Or), "Or" (logical inclusion), "Not" (negation) and "Xor" (logical inclusion). These symbols are also known as logical operators.
+
+Relational Operators: These include ">" (greater than), "<" (lesser than), ">=" (greater than or equal to), "<=" (lesser than or equal to), "==" (equal to), "<>" (not equal to), and "Is" (comparing references). These symbols are used to evaluate variables.
+
+Bitwise Operators: These are used in manipulating bits of a binary value and are not always used in programming. These include the symbols "Not" (bitwise negation), "Xor" (bitwise exclusive or), "And" (bitwise and), and "Or" (bitwise or).
+
+Depending on its type, an operator manipulates an arithmetic or logical value, or operand, in a specific way to generate a specific result. From handling simple arithmetic functions to facilitating the execution of complex algorithms, like security encryption, operators play an important role in the programming world.
+
+-----------------------------------------------------------------------------------------------
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Ans : JavaScript includes following categories of operators.
+
+	1. Arithmetic Operators
+	2. Comparison Operators
+	3. Logical Operators
+	4. Assignment Operators
+	5. Conditional Operators
+	6. Ternary Operator
+
+1. Arithmetic Operators: These include "+" (addition), "-" (subtraction), "*" (multiplication), "/" (division), "" (integer division), "Mod" (Modulo) and "^" (exponentiation).
+example: let x = 5, y = 10;
+
+	let z = x + y; //performs addition and returns 15
+
+	z = y - x; //performs subtraction and returns 5	
+
+2. Comparison Operators: JavaScript provides comparison operators that compare two operands and return a boolean value true or false.
+example: let a = 5, b = 10, c = "5";
+	let x = a;
+	a == c; // returns true
+	a === c; // returns false
+	a == x; // returns true
+	a != b; // returns true
+
+3.Logical Operators : In JavaScript, the logical operators are used to combine two or more conditions. JavaScript provides the following logical operators.
+example: let a = 5, b = 10;
+
+	(a != b) && (a < b); // returns true
+
+	(a > b) || (a == b); // returns false
+
+	(a < b) || (a == b); // returns true
+
+4.Assignment Operators: JavaScript provides the assignment operators to assign values to variables with less key strokes.
+example: let x = 5, y = 10, z = 15;
+
+	x = y; //x would be 10
+
+	x += 1; //x would be 6
+
+	x -= 1; //x would be 4
+
+5.ernary Operator: JavaScript provides a special operator called ternary operator :? that assigns a value to a variable based on some condition. This is the short form of the if else condition.
+
+Syntax:
+	<condition> ? <value1> : <value2>;
+
+example: let a = 10, b = 5;
+
+	let c = a > b? a : b; // value of c would be 10
+	let d = a > b? b : a; // value of d would be 5
+
+------------------------------------------------------------------------------------------
+
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+Ans : The three categories of operators based on the number of operands they require are:
+
+	Unary operators: which require one operand (Un)
+	Binary operators: which require two operands (Bi)
+	Ternary operators: which require three operands (Ter)
+
+What is a Unary Operator?
+These operators require one operand for operation. Providing two or more can result in a syntax error. Here are some examples of operators that fall under this category.
+
+the typeof operator
+The typeof operator returns the data type of a value. It requires only one operand. Here's an example:
+
+	typeof "hello"
+	// string
+	If you pass two operands to it, you'd get an error:
+
+	typeof "hello" 50
+	// Uncaught SyntaxError: Unexpected number
+
+The Unary plus + operator
+The unary plus operator attempts to convert a non-number value to a number. It returns NaN where impossible. Here's an example:
+
+	+"200"
+	// 20 - number
+
+	+false
+	// 0 - number representation
+
+	+"hello"
+	// NaN
+
+What is a Binary Operator?
+These operators require two operands for operation. If one or more than two operands are provided, such operators result in a syntax error.
+
+Let's look at some operators that fall under this category
+
+Arithmetic Operators
+All arithmetic operators are binary operators. You have the first operand on the left of the operator, and the second operand on the right of the operator. Here are some examples:
+
+	10 + 20
+	// 30
+
+	20 - 5
+	// 15
+
+	30 / 6
+	// 5
+If you don't provide two operands, you will get a syntax error. For example:
+
+	10 +
+	// SyntaxError: Unexpected end of input
+
+Comparison Operators
+All comparison operators also require two operands. Here are some examples:
+
+	80 < 20
+	// false
+
+	10 < 40
+	// true
+
+	2 >= 2
+	// true
+Assignment Operator =
+The assignment operator is also a binary operator as it requires two operands. 
+For example:
+	const number = 20
+
+What is a Ternary Operator?
+These operators require three operands. In JavaScript, there is one operator that falls under this category – the conditional operator. In other languages, perhaps, there could be more examples.
+
+The Conditional Operator ? ... :
+The conditional operator requires three operands:
+
+the conditional expression
+the truthy expression which gets evaluated if the condition is true
+the falsy expression which gets evaluated if the condition is false.
+
+	const score = 80
+	const scoreRating = score > 50 ? "Good" : "Poor"
+
+	// "Good"
+
+---------------------------------------------------------------------------
+
+Q5. Write a JavaScript program that calculates the simple interest using the formula Simple interest = (principal * rate * time) / 100
+Ans : let principal = 1, rate = 1, time = 1;
+ 
+    /* Calculate simple interest */
+    let Simple interest = (principal * time * rate) / 100;
+ 
+    /* Print the resultant value of SI */
+    console.log("Simple Interest = " + Simple interest);
+
+Output:
+
+	Simple Interest = 0.01
+
+----------------------------------------------------------------------------------------
+
+
